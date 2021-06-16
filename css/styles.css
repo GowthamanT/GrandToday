@@ -28,10 +28,10 @@ body::-webkit-scrollbar {
 /* X-small */
 @media (max-width: 576px) {
   .hero-section {
-    height: 800px;
+    height: 700px;
   }
   .hero-title {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
   }
 }
