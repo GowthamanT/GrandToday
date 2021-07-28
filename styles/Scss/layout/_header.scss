@@ -1,0 +1,42 @@
+
+.navbar {
+  position: relative;
+  z-index: 10;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 10px;
+}
+
+.logo {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  letter-spacing: -1px;
+  height:100%;
+  font-style: italic;
+  display: inline-block;
+
+  img {
+    height: 40px;
+    vertical-align: middle;
+  }
+}
+
+.social-icons {
+  float: right;
+}
+
+.social-media-icon {
+  display: inline-block;
+  img {
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+}
+
+.author {
+  display: none;
+  @include media(md) {
+    display: inline-block;
+  }
+}

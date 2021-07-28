@@ -1,0 +1,32 @@
+
+// Media Query Breakpoints
+
+$media-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@mixin media($breakpoint) {
+  $min-width: map-get($media-breakpoints, $breakpoint);
+  @media screen and (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin media-between($from, $to) {
+  $min-width: map-get($media-breakpoints, $from);
+  $max-width: map-get($media-breakpoints, $to);
+  @media (min-width: $min-width) and (max-width: $max-width - 1px) {
+    @content;
+  }
+}
+
+@mixin media-upto($breakpoint) {
+  $max-width: map-get($media-breakpoints, $breakpoint);
+  @media screen and (max-width: $max-width - 1px) {
+    @content;
+  }
+}

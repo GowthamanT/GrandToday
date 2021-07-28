@@ -1,0 +1,34 @@
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+.mt-40 { margin-top: 40px; }
+.mt-50 { margin-top: 50px; }
+
+.mb-10 { margin-bottom: 10px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+
+.pt-100 { padding-top: 100px; }
+.pt-150 { padding-top: 150px; }
+.pt-200 { padding-top: 200px; }
+
+.pb-100 { padding-bottom: 100px; }
+.pb-150 { padding-bottom: 150px; }
+.pb-200 { padding-bottom: 200px; }
+
+.text-center {
+  text-align: center;
+}
