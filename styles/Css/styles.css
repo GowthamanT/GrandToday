@@ -100,6 +100,13 @@ body {
   text-align: center;
 }
 
+.top-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 .navbar {
   position: relative;
   z-index: 10;
@@ -144,7 +151,7 @@ body {
 }
 
 .hero {
-  height: calc(100vh - 50px);
+  height: 100vh;
   max-height: 800px;
 }
 .hero img {
