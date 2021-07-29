@@ -178,7 +178,7 @@ body {
 }
 @media screen and (max-width: 575px) {
   .hero {
-    height: 83vh;
+    height: calc(100vh - 90px);
   }
 }
 .hero img {

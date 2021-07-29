@@ -5,7 +5,7 @@
   position: relative;
 
   @include media-upto(sm) {
-    height:83vh;
+    height:calc(100vh - 90px);
   }
 
   img {
