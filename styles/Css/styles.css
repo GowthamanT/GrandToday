@@ -176,6 +176,11 @@ body {
   max-height: 800px;
   position: relative;
 }
+@media screen and (max-width: 575px) {
+  .hero {
+    height: 85vh;
+  }
+}
 .hero img {
   width: 100%;
 }
@@ -201,9 +206,11 @@ body {
 }
 .bg-img .bg4 {
   z-index: 9;
+  pointer-events: none;
 }
 .bg-img .bg6 {
   z-index: 10;
+  pointer-events: none;
 }
 
 .hero-content {

@@ -4,6 +4,10 @@
   max-height: 800px;
   position: relative;
 
+  @include media-upto(sm) {
+    height:85vh;
+  }
+
   img {
     width: 100%;
   }
@@ -31,9 +35,11 @@
 
   .bg4 {
     z-index: 9;
+    pointer-events: none;
   }
   .bg6 {
     z-index: 10;
+    pointer-events: none;
   }
 }
 
